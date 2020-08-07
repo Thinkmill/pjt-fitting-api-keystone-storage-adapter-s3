@@ -25,6 +25,7 @@ var DEFAULT_OPTIONS = {
 
 function ensureLeadingSlash (filename) {
 	return filename[0] !== '/' ? '/' + filename : filename;
+}
 
 function removeLeadingSlash (filename) {
 	return filename[0] === '/' ? filename.substring(1) : filename;
